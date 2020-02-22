@@ -45,6 +45,7 @@ module scenes
             this.addChild(this.dice1);
             this.addChild(this.dice2);
 
+            //roll button refresh the value of number for dice image and text label
             this.rollButton.on("click",()=>{
                 this.removeAllChildren();
                 let i:number;

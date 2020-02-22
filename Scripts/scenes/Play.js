@@ -38,6 +38,7 @@ var scenes;
             this.addChild(this.dice2Text);
             this.addChild(this.dice1);
             this.addChild(this.dice2);
+            //roll button refresh the value of number for dice image and text label
             this.rollButton.on("click", function () {
                 _this.removeAllChildren();
                 var i;
